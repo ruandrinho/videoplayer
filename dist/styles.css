@@ -8,13 +8,18 @@
     flex-grow: 1;
 }
 .bottom-controls {
+    display: flex;
     background-color: black;
 }
-.left-buttons .button {
-    width: 2rem; height: 2.5rem;
+.bottom-controls .button {
+    width: 2.5rem; height: 2.5rem;
     color: white; background-color: transparent;
     font-size: 1.5rem;
+    text-align: center;
     border-width: 0;
     padding: 0.5rem;
     cursor: pointer;
+}
+.space-filler {
+    flex-grow: 1;
 }
