@@ -12,6 +12,7 @@
 }
 .left-buttons .button {
     color: white; background-color: transparent;
+    font-size: 150%;
     border-width: 0;
     cursor: pointer;
 }
