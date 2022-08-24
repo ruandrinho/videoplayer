@@ -11,8 +11,10 @@
     background-color: black;
 }
 .left-buttons .button {
+    width: 2rem; height: 2.5rem;
     color: white; background-color: transparent;
-    font-size: 150%;
+    font-size: 1.5rem;
     border-width: 0;
+    padding: 0.5rem;
     cursor: pointer;
 }
