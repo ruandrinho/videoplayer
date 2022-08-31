@@ -1,3 +1,6 @@
+body {
+    margin: 6px;
+}
 .player {
     display: flex;
     flex-direction: column;
@@ -10,14 +13,14 @@
 .bottom-controls {
     display: flex;
     background-color: black;
+    padding: 0 2px 0 1px;
 }
 .bottom-controls .button {
-    width: 2.5rem; height: 2.5rem;
+    width: 33px; height: 44px;
     color: white; background-color: transparent;
-    font-size: 1.5rem;
+    font-size: 20px;
     text-align: center;
     border-width: 0;
-    padding: 0.5rem;
     cursor: pointer;
 }
 .space-filler {
