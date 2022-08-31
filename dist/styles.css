@@ -12,11 +12,13 @@ body {
 }
 .bottom-controls {
     display: flex;
+    align-items: center;
+    height: 44px;
     background-color: black;
     padding: 0 2px 0 1px;
 }
 .bottom-controls .button {
-    width: 33px; height: 44px;
+    width: 33px;
     color: white; background-color: transparent;
     font-size: 20px;
     text-align: center;
@@ -26,7 +28,6 @@ body {
 .time {
     color: white;
     font: 16px 'Roboto', sans-serif;
-    line-height: 43px;
     padding-top: 1px;
 }
 .current-time {
@@ -35,6 +36,22 @@ body {
 .duration {
     padding-right: 3px;
 }
-.space-filler {
+.progress {
     flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2px 10px;
+}
+.slider {
+    width: 0; height: 5px;
+    background-color: #f8104d;
+    border-radius: 2px;
+}
+.slider-handle {
+    width: 8px; height: 8px;
+    background: #f8104d;
+    margin: 1px 0 0 -14px;
+    border: 3px solid white; border-radius: 7px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
 }
