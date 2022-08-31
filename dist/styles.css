@@ -23,6 +23,18 @@ body {
     border-width: 0;
     cursor: pointer;
 }
+.time {
+    color: white;
+    font: 16px 'Roboto', sans-serif;
+    line-height: 43px;
+    padding-top: 1px;
+}
+.current-time {
+    padding-left: 3px;
+}
+.duration {
+    padding-right: 3px;
+}
 .space-filler {
     flex-grow: 1;
 }
